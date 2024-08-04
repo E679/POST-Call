@@ -26,6 +26,11 @@ public class FruitController {
                 fruitModel1.setFruitSerialNumber(fruitModel.getFruitSerialNumber());
                 jpaRepository.save(fruitModel1);
             }
+//            FruitModel fruitModel2 = FruitModel.builder()
+//                    .id(fruitModel.getId())
+//                    .fruitName(fruitModel.getFruitName())
+//                    .fruitSerialNumber(fruitModel.getFruitSerialNumber())
+//                    .build();
             //displayStartPage();
             return fruitModel1;
         } catch (Exception e) {

@@ -8,13 +8,14 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Generated;
+import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 @Entity
 @Table(name = "Fruits Data")
 public class FruitModel {
